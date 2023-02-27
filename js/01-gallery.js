@@ -13,6 +13,8 @@ galleryContainer.insertAdjacentHTML("beforeend", galleryImagesMarkup);
 
 galleryContainer.addEventListener('click', handleMouseClick);
 
+galleryContainer.addEventListener('click', handleMouseClick);
+
 function handleMouseClick(event) {
   if (event.target.nodeName !== 'IMG') {
     return;
