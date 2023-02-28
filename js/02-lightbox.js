@@ -11,11 +11,11 @@ const galleryImagesMarkup = galleryItems
 
 galleryContainer.insertAdjacentHTML("beforeend", galleryImagesMarkup);
 
-const gallery = new SimpleLightbox('.gallery a', {
+const gallery = new SimpleLightbox(".gallery a", {
   captions: true,
   captionSelector: "img",
-  captionType: 'attr',
-  captionsData: 'alt',
-  captionPosition: 'bottom',
+  captionType: "attr",
+  captionsData: "alt",
+  captionPosition: "bottom",
   captionDelay: 250,
 });
